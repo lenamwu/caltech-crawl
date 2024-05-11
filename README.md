@@ -8,6 +8,6 @@ To perform the analysis: python graphs.py
 Ensure crawled_data.json is in the same directory as graphs.py before running the analysis script.
 
 Approach:
-This crawler uses a concurrent fetching strategy with breadth-first search. It starts from a seed URL and fetches pages in parallel where possible, following links to discover new pages systematically. 
+This crawler uses a concurrent fetching strategy with BFS
 
 
